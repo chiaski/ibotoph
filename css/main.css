@@ -270,6 +270,35 @@ body {
 
 
 
+/* CANDIDATES */
+
+
+/* Platform Items */
+
+.content-platform {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.platform-item {
+    margin: 0 0 .5em 0;
+    ;
+    padding: .4em;
+    box-sizing: border-box;
+    font-family: "HK Grotesk";
+    color: #fff;
+    width: calc(100% / 2);
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .platform-item div {
+        width: 100%;
+    }
+}
 
 
 
