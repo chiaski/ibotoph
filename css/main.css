@@ -409,6 +409,75 @@ body {
     display: block;
 }
 
+/* ~~ Experience */
+
+.candidate-work h3 {
+    font-family: "Work Sans";
+    text-align: center;
+    color: blue;
+    margin: 1em 0 .4em 0;
+    padding: .5em;
+    font-size: 14px;
+}
+
+
+
+.experience-item {
+    display: inline-block;
+    max-width: 350px;
+    margin: .3em .5em 1em .5em;
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.experience-item h3 {
+    display: inline-block;
+    margin: 0;
+    background: #c92222;
+    font-family: "HK Grotesk";
+    font-weight: 100;
+    font-size: 13px;
+    padding: .3em;
+    color: #000;
+    height: 12px;
+}
+
+.experience-item strong {
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.experience-item i {
+    font-weight: 100;
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-size: 14px;
+    display: block;
+    padding: .3em;
+}
+
+.experience-item sub {
+    font-weight: 100;
+    padding: .3em;
+    font-size: 10px;
+    color: #8e8b8b;
+}
+
+.experience-item a {
+    color: #fff;
+    border-bottom: 1px solid blue;
+    text-decoration: none;
+}
+
+.experience-item a:hover {
+    color: yellow;
+    border-bottom: #fff 1px solid;
+}
+
 /* ~~ Education */
 
 .education-item {
