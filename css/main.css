@@ -398,6 +398,36 @@ body {
 }
 
 
+.content-divider {
+    height: 1px;
+    background: #fff;
+    margin: 1em;
+    box-sizing: border-box;
+    display: block;
+}
+
+/* ~~ Education */
+
+.education-item {
+    display: inline-block;
+    max-width: 500px;
+    margin: .3em .5em 1em .5em;
+}
+
+.education-item strong {
+    font-family: "Work Sans";
+    color: #ddaf3b;
+    font-size: 16px;
+    margin-right: .5em;
+}
+
+.education-item {
+    color: #fff;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
 /* MOBILE ADJUSTMENTS */
 
 @media only screen and (max-width: 600px) {
