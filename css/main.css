@@ -247,6 +247,7 @@ body {
 
 #navigationbar .navigation-title {
     font-family: "Termina";
+    font-weight: 600;
     color: #c92222;
     margin: auto;
     height: 60px;
@@ -292,7 +293,7 @@ body {
 }
 
 .navigation-dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #c92222;
 }
 
 .navigation-candidate {
@@ -308,6 +309,7 @@ body {
 .navigation-candidate strong {
     font-family: "HK Grotesk";
     padding: 0 .4em;
+    color: #c92222;
 }
 
 
