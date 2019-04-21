@@ -224,6 +224,11 @@ body {
     background-repeat: no-repeat;
 }
 
+.candidate-portrait {
+    box-sizing: border-box;
+    border: 1em solid #000;
+}
+
 
 /* NAVIGATION DROPDOWN */
 
@@ -426,7 +431,7 @@ body {
     box-sizing: border-box;
     font-family: "Work Sans";
     color: #fff;
-    width: calc(90% / 2);
+    width: calc(93% / 2);
     font-size: 14px;
 }
 
@@ -454,7 +459,7 @@ body {
 
 .experience-item {
     display: inline-block;
-    max-width: 350px;
+    max-width: 450px;
     margin: .3em .5em 1em .5em;
     font-size: 16px;
     line-height: 18px;
@@ -510,9 +515,15 @@ body {
 
 /* ~~ Education */
 
-.education-item {
+.content-education {
+    background: red;
+    max-width: 600px;
     display: inline-block;
-    max-width: 500px;
+}
+
+.education-item {
+    display: block;
+    max-width: 420px;
     margin: .3em .5em 1em .5em;
 }
 
