@@ -410,7 +410,7 @@ body {
 
 .mainbio-item {
     display: inline-block;
-    min-width: 300px;
+    max-width: 340px;
     color: #fff;
     font-size: 14px;
     line-height: 17px;
