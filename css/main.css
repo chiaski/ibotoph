@@ -311,6 +311,43 @@ body {
 }
 
 
+/* ~~FOOTER */
+#footer {
+    padding: 1em;
+    background: #000;
+    min-height: 150px;
+    height: auto;
+}
+
+#footer .footer-links {
+    display: inline-block;
+}
+
+.footer-links a {
+    display: block;
+    text-align: left;
+    color: #234cd3;
+    font-size: 16px;
+}
+
+.box-footer img {
+    display: inline-block;
+    max-width: 90px;
+    padding: .4em;
+}
+
+.box-footer p {
+    text-align: left;
+    display: inline-block;
+    max-width: 360px;
+    padding: 1em;
+    font-family: "HK Grotesk";
+    color: #fff;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
 /* CANDIDATES */
 
 .candidate-box h2 {
@@ -593,7 +630,8 @@ body {
     }
 
     .navigation-dropdown,
-    .navigation-title {
+    .navigation-title,
+    #footer img {
         display: none;
     }
 
