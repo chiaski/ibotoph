@@ -1,4 +1,3 @@
 
-RedirectMatch 301 ^/(.*)nericolmenares, neri, neri-colmenares, 22 https://iboto.ph/colmenares
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
