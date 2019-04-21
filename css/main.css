@@ -349,12 +349,14 @@ body {
 .content-salient .platform-item {
     padding: .3em;
     line-height: 20px;
-    font-weight: 800;
+    font-weight: 300;
+    text-shadow: 0 1px 00 #302d2d;
 }
 
 .content-salient .platform-item i {
     font-size: 20px;
     padding: .1em;
+    text-shadow: none;
 }
 
 
@@ -371,7 +373,7 @@ body {
     ;
     padding: .4em;
     box-sizing: border-box;
-    font-family: "HK Grotesk";
+    font-family: "Work Sans";
     color: #fff;
     width: calc(100% / 2);
     font-size: 14px;
