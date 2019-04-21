@@ -354,13 +354,13 @@ body {
 
 .box-links {
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .box-links a {
-    width: 90px;
+    width: 80px;
     text-align: center;
-    padding: .5em;
+    padding: .3em;
     border: 1px solid #000;
     text-decoration: none;
     display: inline-block;
@@ -394,7 +394,7 @@ body {
 .content-main h1 {
     font-family: "Termina";
     color: #fff;
-    font-size: 2.8em;
+    font-size: 2.1em;
     line-height: 1.1em;
     margin: 0;
 }
