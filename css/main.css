@@ -352,6 +352,20 @@ body {
 
 /* CANDIDATES */
 
+.box-links {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.box-links a {
+    padding: .5em;
+    border: 1px solid #000;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+
+}
+
 .candidate-box h2 {
     font-family: "Termina";
     color: #fff;
@@ -362,6 +376,7 @@ body {
 .content-main {
     margin: 0 auto;
     max-width: 600px;
+    padding-right: 15%;
 }
 
 .content-main h1 {
