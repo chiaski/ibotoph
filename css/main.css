@@ -366,6 +366,7 @@ body {
 
 .content-salient .platform-item {
     padding: .3em;
+    margin-bottom: .3px;
     line-height: 20px;
     font-weight: 300;
     text-shadow: 0 1px 00 #302d2d;
