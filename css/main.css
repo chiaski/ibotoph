@@ -356,6 +356,36 @@ body {
     text-align: center;
 }
 
+.candidate-moreinfo {
+    display: inline-block;
+    width: 250px;
+    font-family: "HK Grotesk";
+    line-height: 14px;
+    font-size: 14px;
+    padding: .5em;
+    background: blue;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 .2em .5em .2em;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.candidate-moreinfo:hover {
+    color: #b4eff7;
+    transform: translateY(-1.4px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+
+}
+
+.candidate-moreinfo i {
+    font-size: 12px;
+}
+
 .content-salient {
     display: flex;
     align-items: flex-start;
