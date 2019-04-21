@@ -384,16 +384,18 @@ body {
     justify-content: flex-start;
     flex-flow: row wrap;
     width: 100%;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
 }
 
 .platform-item {
-    margin: 0 0 .5em 0;
-    ;
-    padding: .4em;
+    margin: 0 .3em 1em .3em;
+    padding: .5em;
     box-sizing: border-box;
     font-family: "Work Sans";
     color: #fff;
-    width: calc(100% / 2);
+    width: calc(90% / 2);
     font-size: 14px;
 }
 
@@ -431,8 +433,9 @@ body {
 /* MOBILE ADJUSTMENTS */
 
 @media only screen and (max-width: 600px) {
-    .platform-item div {
+    .platform-item {
         width: 100%;
+        margin-bottom: 0;
     }
 
     .navigation-dropdown {
