@@ -437,9 +437,9 @@ body {
     line-height: 14px;
     font-size: 14px;
     padding: .5em;
-    background: blue;
+    background: #eabc72;
     border-radius: 5px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     margin: 0 .2em .5em .2em;
     -webkit-transition: all .3s linear;
@@ -523,13 +523,21 @@ body {
 .candidate-work h3 {
     font-family: "Work Sans";
     text-align: center;
-    color: blue;
+    color: #eabc72;
     margin: 1em 0 .4em 0;
     padding: .5em;
     font-size: 14px;
 }
 
+.content-legislative .experience-item {
+    font-size: 14px;
+    max-width: 340px;
+}
 
+.content-legislative .experience-item strong {
+    font-family: "HK Grotesk";
+    font-size: 13px;
+}
 
 .experience-item {
     display: inline-block;
