@@ -422,6 +422,22 @@ body {
     padding-right: .3em;
 }
 
+.content-bio {
+    max-width: 650px;
+}
+
+.content-bio h2 {
+    margin: 0;
+}
+
+.content-bio p {
+    margin: .3em 0 0 0;
+    font-size: 15px;
+    color: #fff;
+    padding: .5em;
+    line-height: 28px;
+}
+
 
 /* Platform Items */
 
