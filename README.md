@@ -8,6 +8,7 @@ _Coming: huwag.iboto.ph_ (if it's legal)
 
 ## Considerations
 * Only completed degrees/programs are listed, secondary/high school is disregarded.
+* No age, you can Google that if you want
 * Include short descriptions of experience as needed
 
 ## Sources

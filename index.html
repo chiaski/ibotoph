@@ -91,6 +91,7 @@
             font-weight: bold;
             font-style: normal;
         }
+
     </style>
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -141,13 +142,21 @@
 
         <div class="box candidate-box" style="min-height:100%;background-image:url(img/kandidato/colmenares.png);">
 
+            <div class="box-links">
+                <a href="#content-salient">Views</a>
+                <a href="#content-platforms">Platform</a>
+                <a href="#content-experience">Experience</a>
+                <a href="#content-support">Support</a>
+
+            </div>
+
             <div class="box-inner" style="padding:2em;margin:0 auto;width:100%;position:absolute;bottom:0;">
 
                 <div class="box-content content-main">
                     <!--Basic Information about Candidates-->
-                    <h1 class="content-mainbio-title"><sup title="#22: Ballot Number for Neri Colmenares" class="tooltip">#22</sup> Neri Colmenares</h1>
+                    <span class="mainbio-item"><strong>SENATORIAL CANDIDATE, MAKABAYAN</strong></span>
+                    <h1 class="content-mainbio-title">Neri Colmenares<sup title="#22: Ballot Number for Neri Colmenares" class="tooltip">#22</sup> </h1>
                     <p class="content-mainbio">
-                        <span class="mainbio-item"><strong>SENATORIAL CANDIDATE</strong> #22</span>
                         <span class="mainbio-item"><strong>PARTYLIST</strong> Makabayan (MKBYN)</span>
                         <span class="mainbio-item"><strong>INCUMBENT SENATOR? </strong> No</span>
                         <span class="mainbio-item"><strong>TERMS AS SENATOR </strong> 0</span>
@@ -155,7 +164,7 @@
 
                 </div>
 
-                <div class="box-content content-salient" style="margin:0 auto;top:0;left:0;bottom:0;right:0;position:relative;max-width:600px;padding-top:1em;">
+                <div id="content-salient" class="box-content content-salient" style="margin:0 auto;top:0;left:0;bottom:0;right:0;position:relative;max-width:600px;padding-top:1em;">
                     <span class="platform-item"><i class="fa fa-times-circle-o"></i> Death Penalty</span>
                     <span class="platform-item"><i class="fa fa-check-circle"></i> Divorce</span>
                     <span class="platform-item"><i class="fa fa-times-circle-o"></i> Bangsomoro Organic Law</span>
@@ -174,7 +183,7 @@
 
 
 
-        <div class="box candidate-box candidate-work" style="background:#000;">
+        <div id="content-platforms" class="box candidate-box candidate-work" style="background:#000;">
 
             <div class="box-inner" style="padding:2em;margin:0 auto;max-width:1200px;width:100%;">
                 <div class="content-salient-mobile">
@@ -209,7 +218,7 @@
                 </center>
 
 
-                <span class="content-divider"></span>
+                <span id="content-experience" class="content-divider"></span>
 
                 <h2>Affiliations & Education &nbsp;<i class="fa fa-graduation-cap"></i></h2>
 
@@ -256,7 +265,7 @@
         </div>
 
 
-        <div class="box support-box" style="padding:3em 0 2em 0;min-height:300px;height:auto;text-align: center;background:#f4f4f2;color:#232121;">
+        <div id="content-support" class="box support-box" style="padding:3em 0 2em 0;min-height:300px;height:auto;text-align: center;background:#f4f4f2;color:#232121;">
 
             <div class="box-inner" style="width:70%;">
 
@@ -290,6 +299,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')
+
     </script>
 
     <script src="js/main.js"></script>
