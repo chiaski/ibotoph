@@ -241,6 +241,9 @@ body {
 #navigationbar .navigation-title {
     font-family: "Termina";
     color: #c92222;
+    margin: auto;
+    height: 60px;
+    line-height: 60px;
 }
 
 .dropbtn {
@@ -394,9 +397,16 @@ body {
     font-size: 14px;
 }
 
+
+/* MOBILE ADJUSTMENTS */
+
 @media only screen and (max-width: 600px) {
     .platform-item div {
         width: 100%;
+    }
+
+    .navigation-dropdown {
+        display: none;
     }
 }
 
