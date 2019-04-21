@@ -276,6 +276,40 @@ body {
     font-family: "Termina";
     color: #fff;
     display: inline-block;
+    font-size: 18px;
+}
+
+.content-main {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.content-main h1 {
+    font-family: "Termina";
+    color: #fff;
+}
+
+.content-mainbio {
+    font-family: "HK Grotesk";
+}
+
+.content-mainbio-title sup {
+    font-size: 18px;
+}
+
+
+.mainbio-item {
+    display: inline-block;
+    min-width: 300px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.mainbio-item strong {
+    font-family: "Termina";
+    font-size: 12px;
+    color: #fff;
+    padding-right: .3em;
 }
 
 
