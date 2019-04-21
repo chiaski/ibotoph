@@ -354,16 +354,28 @@ body {
 
 .box-links {
     display: inline-block;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .box-links a {
+    width: 90px;
+    text-align: center;
     padding: .5em;
     border: 1px solid #000;
     text-decoration: none;
     display: inline-block;
     color: black;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
 
+}
+
+.box-links a:hover {
+    background: #000;
+    color: #fff;
 }
 
 .candidate-box h2 {
