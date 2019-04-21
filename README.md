@@ -11,6 +11,10 @@ _Coming: huwag.iboto.ph_ (if it's legal)
 * No age, you can Google that if you want
 * Include short descriptions of experience as needed
 
+Later, maybe
+* Downloadable image/PDF
+* Text version
+
 ## Sources
 * https://www.rappler.com/newsbreak/iq/214974-where-senatorial-bets-stand-key-issues-philippines
 * UP Political Society: SINOtoriables

@@ -376,7 +376,7 @@ body {
 .content-main {
     margin: 0 auto;
     max-width: 600px;
-    padding-right: 15%;
+    padding-right: 25%;
 }
 
 .content-main h1 {
@@ -620,6 +620,35 @@ body {
 
 
 /* MOBILE ADJUSTMENTS */
+
+
+@media only screen and (max-width: 900px) {
+    .content-salient {
+        display: none;
+    }
+
+    .content-salient-mobile {
+        display: block;
+    }
+
+    .content-salient-mobile .platform-item {
+        display: inline-block;
+        max-width: 200px;
+        font-size: 13px;
+        padding: .3em;
+        margin-bottom: .3px;
+        line-height: 20px;
+        font-weight: 300;
+        text-shadow: 0 1px 00 #302d2d;
+    }
+
+
+    .platform-item {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+}
 
 @media only screen and (max-width: 600px) {
 

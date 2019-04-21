@@ -44,8 +44,8 @@ $('a[href*="#"]')
             if (target.length) {
                 // Only prevent default if animation is actually gonna happen
                 event.preventDefault();
-                $('html, body, .container, .register-links, .reg-bundle').animate({
-                    scrollTop: target.offset().top
+                $('html, body, .container').animate({
+                    scrollTop: target.position().top - 100
                 }, 1000, function () {
                     // Callback after animation
                     // Must change focus!
