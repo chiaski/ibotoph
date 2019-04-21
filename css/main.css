@@ -575,7 +575,8 @@ body {
         margin-bottom: 0;
     }
 
-    .navigation-dropdown {
+    .navigation-dropdown,
+    .navigation-title {
         display: none;
     }
 
