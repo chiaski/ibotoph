@@ -226,8 +226,10 @@ body {
 
 .candidate-portrait {
     box-sizing: border-box;
-    border: 1em solid #000;
+    max-width: 100%;
+    margin: 1em;
 }
+
 
 
 /* NAVIGATION DROPDOWN */
@@ -516,14 +518,13 @@ body {
 /* ~~ Education */
 
 .content-education {
-    background: red;
-    max-width: 600px;
     display: inline-block;
 }
 
 .education-item {
+    text-align: left !important;
     display: block;
-    max-width: 420px;
+    max-width: 600px;
     margin: .3em .5em 1em .5em;
 }
 
@@ -551,6 +552,13 @@ body {
 
     .navigation-dropdown {
         display: none;
+    }
+
+    .candidate-portrait {
+        display: block;
+        clear: both;
+        float: none;
+        border: 1em red solid;
     }
 }
 
