@@ -235,6 +235,7 @@ body {
     height: 60px;
     box-sizing: border-box;
     padding: 0 1em 0 1em;
+    z-index: 999;
 }
 
 #navigationbar .navigation-title {
@@ -284,6 +285,20 @@ body {
     background-color: #3e8e41;
 }
 
+.navigation-candidate {
+    float: right;
+}
+
+.navigation-candidate h1 {
+    display: inline-block;
+    font-size: 24px;
+    color: #fff;
+}
+
+.navigation-candidate strong {
+    font-family: "HK Grotesk";
+    padding: 0 .4em;
+}
 
 
 /* CANDIDATES */
