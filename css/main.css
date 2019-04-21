@@ -272,8 +272,39 @@ body {
 
 /* CANDIDATES */
 
+.candidate-box h2 {
+    font-family: "Termina";
+    color: #fff;
+    display: inline-block;
+}
+
 
 /* Platform Items */
+
+.box-content h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.content-salient {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.content-salient .platform-item {
+    padding: .3em;
+    line-height: 20px;
+    font-weight: 800;
+}
+
+.content-salient .platform-item i {
+    font-size: 20px;
+    padding: .1em;
+}
+
 
 .content-platform {
     display: flex;
