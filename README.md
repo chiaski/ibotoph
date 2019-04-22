@@ -22,3 +22,4 @@ Later, maybe
 * https://medium.com/the-looking-glass/first-time-philippine-senate-candidates-share-platforms-by-patrick-dayao-2f83fc6a54da
 * Official candidate social media pages (linked on each page)
 * https://ph.news.yahoo.com/gis-exclusive-atty-hilbay-push-064624981.html
+* Vencel Sanglay, Millennial's Guide to the 2019 Senatoriables
