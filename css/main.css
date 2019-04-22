@@ -47,7 +47,7 @@ textarea {
 .browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
-    color: #000;
+    color: #19181a;
     padding: 0.2em 0;
 }
 
@@ -255,7 +255,7 @@ body {
 }
 
 .dropbtn {
-    background-color: #000;
+    background-color: #19181a;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -316,7 +316,7 @@ body {
 /* ~~FOOTER */
 #footer {
     padding: 1em;
-    background: #000;
+    background: #19181a;
     min-height: 150px;
     height: auto;
 }
@@ -364,7 +364,7 @@ body {
     margin: .1em 0 .5em 0 !important;
     text-align: center;
     padding: .3em;
-    border: 1px solid #000;
+    border: 1px solid #19181a;
     text-decoration: none;
     display: inline-block;
     color: black;
@@ -377,7 +377,7 @@ body {
 }
 
 .box-links a:hover {
-    background: #000;
+    background: #19181a;
     color: #fff;
 }
 
@@ -459,7 +459,7 @@ body {
     padding: .5em;
     background: #eabc72;
     border-radius: 5px;
-    color: #000;
+    color: #19181a;
     text-decoration: none;
     margin: 0 .2em .5em .2em;
     -webkit-transition: all .3s linear;
@@ -498,7 +498,7 @@ body {
     line-height: 20px;
     font-weight: 300;
     text-shadow: 0 1px 20px #302d2d;
-    color: #000;
+    color: #19181a;
 }
 
 .content-salient .platform-item i {
@@ -578,7 +578,7 @@ body {
     font-weight: 100;
     font-size: 13px;
     padding: .3em;
-    color: #000;
+    color: #19181a;
     height: 12px;
 }
 
@@ -647,7 +647,7 @@ body {
 .support-item {
     display: block;
     text-align: left;
-    color: #000;
+    color: #19181a;
     padding: .3em .5em .3em .5em;
 }
 
@@ -889,7 +889,7 @@ body {
     *:before,
     *:after {
         background: transparent !important;
-        color: #000 !important;
+        color: #19181a !important;
         box-shadow: none !important;
         text-shadow: none !important;
     }
