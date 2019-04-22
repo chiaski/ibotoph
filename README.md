@@ -19,3 +19,6 @@ Later, maybe
 * https://www.rappler.com/newsbreak/iq/214974-where-senatorial-bets-stand-key-issues-philippines
 * UP Political Society: SINOtoriables
 * Rappler #TheLeaderIWant Series and #PHVote articles: https://www.rappler.com/nation/politics/elections/2019
+* https://medium.com/the-looking-glass/first-time-philippine-senate-candidates-share-platforms-by-patrick-dayao-2f83fc6a54da
+* Official candidate social media pages (linked on each page)
+* https://ph.news.yahoo.com/gis-exclusive-atty-hilbay-push-064624981.html
