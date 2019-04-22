@@ -23,3 +23,4 @@ Later, maybe
 * Official candidate social media pages (linked on each page)
 * https://ph.news.yahoo.com/gis-exclusive-atty-hilbay-push-064624981.html
 * Vencel Sanglay, Millennial's Guide to the 2019 Senatoriables
+* https://www.facebook.com/venccilito/media_set?set=a.10210590552719969&type=3
