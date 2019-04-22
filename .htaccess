@@ -1,2 +1,5 @@
+RewriteRule ^(neri|nericolmenares|22|colmenaresneri)\.html$ https://iboto.ph/colmenares [R=301,NC,L]
+RewriteRule ^(candidate)\.html$ https://iboto.ph [R=301,NC,L]
+
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
