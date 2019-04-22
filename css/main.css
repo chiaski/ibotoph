@@ -235,7 +235,7 @@ body {
 /* NAVIGATION DROPDOWN */
 
 #navigationbar {
-    background: black;
+    background: #19181a;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -278,7 +278,7 @@ body {
 }
 
 .dropdown-content a {
-    color: black;
+    color: #19181a;
     padding: 12px 12px;
     text-decoration: none;
     display: block;
@@ -367,7 +367,7 @@ body {
     border: 1px solid #19181a;
     text-decoration: none;
     display: inline-block;
-    color: black;
+    color: #19181a;
     -webkit-transition: all .3s linear;
     -moz-transition: all .3s linear;
     -ms-transition: all .3s linear;
