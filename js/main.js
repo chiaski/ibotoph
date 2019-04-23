@@ -7,33 +7,50 @@ $(function () {
 $('.person-colmenares').hover(function(){
     console.log("Run!");
     
-    $('.container-back').hide().css('background-image', 'url("img/kandidato/colmenares-alt.jpg")').fadeIn("fast");
+    
+    $(".container-back").css('background-image', 'url('+"img/kandidato/colmenares-alt.jpg"+')');
+    
+    //$('.container-back').hide().css('background-image', 'url("img/kandidato/colmenares-alt.jpg")').fadeIn("fast");
 })
     
 $('.person-diokno').hover(function(){
     console.log("Run!");
-    $('.container-back').hide().css('background-image', 'url("img/kandidato/diokno.png")').fadeIn("fast");
+    
+    $(".container-back").css('background-image', 'url('+"img/kandidato/diokno.png"+')');
+    
+    //$('.container-back').hide().css('background-image', 'url("img/kandidato/diokno.png")').fadeIn("fast");
 })
     
     
 $('.person-leody').hover(function(){
     console.log("Run!");
-    $('.container-back').hide().css('background-image', 'url("img/kandidato/leody.png")').fadeIn("fast");
+    
+    $(".container-back").css('background-image', 'url('+"img/kandidato/leody.png"+')');
+   // $('.container-back').hide().css('background-image', 'url("img/kandidato/leody.png")').fadeIn("fast");
 })
     
 $('.person-hilbay').hover(function(){
     console.log("Run!");
-    $('.container-back').hide().css('background-image', 'url("img/kandidato/hilbay.png")').fadeIn("fast");
+    
+    $(".container-back").css('background-image', 'url('+"img/kandidato/hilbay.png"+')');
+    
+    //$('.container-back').hide().css('background-image', 'url("img/kandidato/hilbay.png")').fadeIn("fast");
 })
 
 $('.person-tanada').hover(function(){
     console.log("Run!");
-    $('.container-back').hide().css('background-image', 'url("img/kandidato/tanada.png")').fadeIn("fast");
+    
+    $(".container-back").css('background-image', 'url('+"img/kandidato/tanada.png"+')');
+    
+ //   $('.container-back').hide().css('background-image', 'url("img/kandidato/tanada.png")').fadeIn("fast");
 })
 
 $('.person-gutoc').hover(function(){
     console.log("Run!");
-    $('.container-back').hide().css('background-image', 'url("img/kandidato/gutoc.png")').fadeIn("fast");
+    
+    $(".container-back").css('background-image', 'url('+"img/kandidato/gutoc.png"+')');
+    
+    //$('.container-back').hide().css('background-image', 'url("img/kandidato/gutoc.png")').fadeIn("fast");
 })
 
 
