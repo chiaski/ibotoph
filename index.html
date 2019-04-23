@@ -170,39 +170,44 @@
             transform: translateY(-1.4px);
             box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
         }
+
+        .container-back {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            z-index: -99;
+            background-image:url('img/kandidato/colmenares.png');
+            background-size: cover;
+            background-position:center;
+        }
+
     </style>
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
+        <script type="text/javascript">
+
+$(document).ready(function(){
+$('.person-colmenares').mouseover(function(){
+    alert("hi");
+    $('.container-back').css('background: red');
+});
+    
+        </script>
+    
 </head>
 
-<body>
+<body style="background:#19181a;">
+
+    <div class="container-back"></div>
 
     <div class="container">
 
-        <!-- <div id="navigationbar">
 
-            <span class="navigation-title">Iboto.ph</span>
-
-            <div class="navigation-dropdown">
-                <button class="dropbtn">Candidate</button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-            </div>
-
-            <span class="navigation-candidate">
-                <strong>#22</strong>
-                <h1>Neri Colmenares</h1>
-            </span>
-
-        </div>-->
-
-
-        <div class="box landing-box" style="min-height:100%;background:#19181a;display: table; width:100%;">
+        <div class="box landing-box" style="min-height:100%;display: table; width:100%;">
 
 
 
@@ -213,7 +218,7 @@
                 <br>
                 <center>
                     <span class="landing-candidates">
-                        <a href="http://iboto.ph/colmenares">#22 Colmenares</a>
+                        <span class="person-colmenares"><a class="person-colmenares" href="http://iboto.ph/colmenares">#22 Colmenares</a></span>
                         <a href="http://iboto.ph/leody">#23 De Guzman</a>
                         <a href="http://iboto.ph/diokno">#25 Diokno</a>
                         <a href="http://iboto.ph/gutoc">#36 Gutoc</a>
@@ -222,19 +227,6 @@
                     </span></center>
                 <br>
                 <p><a href="http://m.me/ibotoph">Contribute?</a><br> <a href="http://facebook.com/iboto.ph" target="_blank" alt="Iboto.ph Facebook" title="Iboto.ph Facebook"><i class="fa fa-facebook"></i></a></p>
-
-
-                <!--
-                    <div class="box-content content-main" style="max-width:500px;">
-                       
-                        <span class="mainbio-item"><strong>SENATORIABLE, MAKABAYAN</strong></span>
-                        <h1 class="content-mainbio-title">Neri Colmenares<sup title="#22: Ballot Number for Neri Colmenares" class="tooltip">#22</sup> </h1>
-                        <p class="content-mainbio">
-                            <span class="mainbio-item"><strong>PARTYLIST</strong> Makabayan (MKBYN)</span>
-                            <span class="mainbio-item"><strong><i class="fa fa-comment"></i></strong> Human rights lawyer & activist, former Bayan Muna rep, 40+ years of experience</span>
-                        </p>
-
-                    </div>-->
 
             </div>
 
