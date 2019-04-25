@@ -540,6 +540,21 @@ body {
 
 /* ~~ Experience */
 
+.story-item{
+    padding:.5em;
+    max-width:360px;
+    display:inline-block;
+    color:#f9f4f5;
+    font-size:13px;
+    line-height:20px;
+    font-family:"HK Grotesk";
+    margin:.5em 1em;
+}
+
+.story-item i{
+    font-size:18px;
+}
+
 .candidate-work h3 {
     font-family: "Work Sans";
     text-align: center;
