@@ -1,6 +1,7 @@
 RewriteRule ^(neri|nericolmenares|22|colmenaresneri)\.html$ https://iboto.ph/colmenares [R=301,NC,L]
 RewriteRule ^(candidate)\.html$ https://iboto.ph [R=301,NC,L]
 Redirect /who https://docs.google.com/forms/d/e/1FAIpQLSfxxFfnn8IsT_Uv0ZTMjoTZW0TUKIrcHTqk5v0YLeaODrp9ZQ/viewform?usp=sf_link
+Redirect /WHO https://docs.google.com/forms/d/e/1FAIpQLSfxxFfnn8IsT_Uv0ZTMjoTZW0TUKIrcHTqk5v0YLeaODrp9ZQ/viewform?usp=sf_link
 
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
