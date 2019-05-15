@@ -3,5 +3,11 @@ RewriteRule ^(candidate)\.html$ https://iboto.ph [R=301,NC,L]
 Redirect /who https://docs.google.com/forms/d/e/1FAIpQLSfxxFfnn8IsT_Uv0ZTMjoTZW0TUKIrcHTqk5v0YLeaODrp9ZQ/viewform?usp=sf_link
 Redirect /WHO https://docs.google.com/forms/d/e/1FAIpQLSfxxFfnn8IsT_Uv0ZTMjoTZW0TUKIrcHTqk5v0YLeaODrp9ZQ/viewform?usp=sf_link
 
+Redirect /report https://docs.google.com/forms/d/e/1FAIpQLScPR1_Dv0ftb1b11TLaYdwHBxzsvJEGjpRgCc4so_OECKe5lQ/viewform?usp=sf_link
+Redirect /REPORT https://docs.google.com/forms/d/e/1FAIpQLScPR1_Dv0ftb1b11TLaYdwHBxzsvJEGjpRgCc4so_OECKe5lQ/viewform?usp=sf_link
+
+Redirect /volunteer https://docs.google.com/forms/d/e/1FAIpQLScAK5hm2il8jivqRDMyx_cNk_e7dLYh2YYnYvtyAttUmyD_XQ/viewform?usp=sf_link
+Redirect /VOLUNTEER https://docs.google.com/forms/d/e/1FAIpQLScAK5hm2il8jivqRDMyx_cNk_e7dLYh2YYnYvtyAttUmyD_XQ/viewform?usp=sf_link
+
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule !.*\.html$ %{REQUEST_FILENAME}.html [L]
