@@ -194,7 +194,6 @@ body {
 .box-inner {
     width: 100%;
     margin: auto;
-    min-width: 400px;
     box-sizing: border-box;
     overflow-x: hidden;
 }
